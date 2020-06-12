@@ -1,5 +1,7 @@
 # WhatsApp Chatbot
 
+Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
+
 ## Create the application using _Flask_
 
 
