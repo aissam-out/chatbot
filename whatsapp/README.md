@@ -25,7 +25,11 @@ For free, and without waiting for your Twilio number to be approved for WhatsApp
 2. Create a new project
     * Products > Programmable SMS > Continue
 
-3. 
+3. On project console, open Programmable SMS Dashboard
+
+4. Select WhatsApp Beta
+
+5. Configure the Sandbox (next section)
 
 ## Create the application using _Flask_
 
