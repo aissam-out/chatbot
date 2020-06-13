@@ -1,5 +1,9 @@
 # WhatsApp Chatbot
 
+<p align="center">
+<img src="./images/whatsapp.png" alt="twilio" width="150" height="150">
+</p>
+
 Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
 
 ## Twilio
