@@ -23,10 +23,7 @@ For free, and without waiting for your Twilio number to be approved for WhatsApp
 1. Create a Twilio account
 
 2. Create a new project
-    * Select Products
-    * Choose Programmable SMS
-    * Click Continue
-    * Give your project a name
+    * Products > Programmable SMS > Continue
 
 3. 
 
