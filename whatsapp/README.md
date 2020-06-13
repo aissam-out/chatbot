@@ -4,6 +4,8 @@
 <img src="./images/whatsapp.png" alt="twilio" width="130" height="130" align="right">
   
 WhatsApp is the most popular OTT app in many parts of the world. Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
+
+Using _Twilio, Flask_ and _Heroku_, as well as many other advanced platforms like _DialogFlow_, we can build amazing chatbots as we will do in this project.
 </p>
 
 
