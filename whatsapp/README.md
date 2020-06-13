@@ -5,7 +5,7 @@ Thanks to whatsapp chatbots you can provide your customers with support on a pla
 ## Twilio
 
 <p align="center">
-<img src="./images/twilio.png" alt="twilio" width="500" height="100">
+<img src="./images/twilio.png" alt="twilio" width="370" height="100">
 </p>
 
 Twilio is a cloud communications platform as a service (CPaaS) company which allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.
