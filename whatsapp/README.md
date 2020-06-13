@@ -1,6 +1,6 @@
 # WhatsApp Chatbot
 
-<p align="center">
+<p align="right">
 <img src="./images/whatsapp.png" alt="twilio" width="150" height="150">
 </p>
 
