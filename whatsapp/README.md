@@ -1,9 +1,9 @@
 # WhatsApp Chatbot
 
 <p>
-<img src="./images/whatsapp.png" alt="twilio" width="150" height="150" align="right">
+<img src="./images/whatsapp.png" alt="twilio" width="130" height="130" align="right">
   
-Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
+WhatsApp is the most popular OTT app in many parts of the world. Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
 </p>
 
 
