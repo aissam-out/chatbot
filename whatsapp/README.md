@@ -1,10 +1,12 @@
 # WhatsApp Chatbot
 
-<p align="right">
-<img src="./images/whatsapp.png" alt="twilio" width="150" height="150">
+<p>
+<img src="./images/whatsapp.png" alt="twilio" width="150" height="150" align="right">
+  
+Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
 </p>
 
-Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
+
 
 ## Twilio
 
