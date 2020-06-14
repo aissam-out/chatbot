@@ -11,7 +11,7 @@ Using _Twilio, Flask_ and _Heroku_, as well as many other advanced platforms lik
 ## Twilio
 
 <p align="center">
-<img src="./images/twilio.png" alt="twilio" width="370" height="100">
+<img src="./images/twilio.png" alt="twilio" width="350" height="100">
 </p>
 
 Twilio is a cloud communications platform as a service (CPaaS) company which allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.
@@ -23,7 +23,7 @@ For free, and without waiting for your Twilio number to be approved for WhatsApp
 1. Create a [Twilio account](https://www.twilio.com/try-twilio)
 
 2. Create a new project
-    * Products > Programmable SMS > Continue
+    * Communications Cloud > Programmable SMS > Continue
 
 3. On project console, open Programmable SMS Dashboard
 
