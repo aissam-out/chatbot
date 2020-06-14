@@ -22,10 +22,8 @@ For free, and without waiting for your Twilio number to be approved for WhatsApp
 
 **1.** Create a [Twilio account](https://www.twilio.com/try-twilio)
 
-**2.** Create a new project
+**2.** Create a [new project](https://www.twilio.com/console/projects/create)
       
-      * Communications Cloud > Programmable SMS > Continue
-
 **3.** On project console, open Programmable SMS Dashboard
 
 **4.** Select WhatsApp Beta
