@@ -29,7 +29,11 @@ For free, and without waiting for your Twilio number to be approved for WhatsApp
 
 4. Select WhatsApp Beta
 
-5. Configure the Sandbox (next section)
+5. Sandbox 
+
+<img src="./images/sandbox.PNG" alt="sandbox" width="350" height="250">
+
+
 
 ## Create the application using _Flask_
 
