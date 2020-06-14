@@ -20,7 +20,7 @@ With the Twilio API for WhatsApp, you can send notifications, have two-way conve
 
 For free, and without waiting for your Twilio number to be approved for WhatsApp, Twilio Sandbox for WhatsApp enables you to create your chatbot immediately as we are about to see in this project .
 
-1. Create a Twilio account
+1. Create a [Twilio account](https://www.twilio.com/try-twilio)
 
 2. Create a new project
     * Products > Programmable SMS > Continue
