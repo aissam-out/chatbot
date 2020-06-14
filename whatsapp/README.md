@@ -31,7 +31,7 @@ For free, and without waiting for your Twilio number to be approved for WhatsApp
 
 5. Sandbox 
 
-<img src="./images/sandbox.PNG" alt="sandbox" width="350" height="250">
+<img src="./images/sandbox.PNG" alt="sandbox">
 
 
 
