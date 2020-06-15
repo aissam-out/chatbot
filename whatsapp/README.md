@@ -34,22 +34,22 @@ When you activate your sandbox, you will see the phone number associated with it
 
 ## Create the application using _Flask_
 
-1. Create a new virtual environment :
+**1.** Create a new virtual environment :
 
     * In a new folder open terminal and execute : `python -m venv myvenv`
  
-2. Activate your virtual environment :
+**2.** Activate your virtual environment :
     * Windows : `> myvenv\Scripts\activate`
     
     * Linux : ` # source myvenv/bin/activate`
     
-3.  Install these two Python packages : 
+**3.**  Install these two Python packages : 
     
     * [Flask](https://flask.palletsprojects.com)  : `pip install flask`
     
     * [Twilio](https://www.twilio.com) : `pip install twilio`
     
-4. Create a Flask App : 
+**4.** Create a Flask App : 
 
 In your virtual environment, create a file named _app.py_ then copy/paste the following code : 
 
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
 This is a basic flask web app which enables us to get `Hello, world!` in **/** route, and get back our message if we POST it to **/sms** route as we can see in the following steps
 
-5. Run the app : `python app.py`
+**5.** Run the app : `python app.py`
  
 <img src="./images/apprun.PNG" alt="apprun">
 
@@ -95,13 +95,13 @@ However, it wouldn't be possible for distant machines to access your app, hence 
 
 [Ngrok](https://ngrok.com) will enable us to have a public URL for our application running locally.
 
-1. Download [**Ngrok**](https://ngrok.com/download) and unzip it
+**1.** Download [**Ngrok**](https://ngrok.com/download) and unzip it
 
-2. Run it from command line by executing : `./ngrok http 5000`
+**2.** Run it from command line by executing : `./ngrok http 5000`
 
-3. Now you can access your app runnig locally from a distant machine using the provided URL (something like this `https://******.ngrok.io`)
+**3.** Now you can access your app runnig locally from a distant machine using the provided URL (something like this `https://******.ngrok.io`)
 
-4. Now you can go back to Twilio sandbox and paste it as URL for incoming messages :
+**4.** Now you can go back to Twilio sandbox and paste it as URL for incoming messages :
 
 <img src="./images/twiliongrok.PNG" alt="twiliongrok">
 
