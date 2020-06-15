@@ -83,7 +83,7 @@ This is a basic flask web app which enables us to get `Hello, world!` in **/** r
 
 5. Run the app : `python app.py`
  
-<img src="./images/apprun.PNG" alt="twilio">
+<img src="./images/apprun.PNG" alt="apprun">
 
 Your application is now running ..
 
@@ -95,6 +95,15 @@ However, it wouldn't be possible for distant machines to access your app, hence 
 
 [Ngrok](https://ngrok.com) will enable us to have a public URL for our application running locally.
 
+1. Download [**Ngrok**](https://ngrok.com/download) and unzip it
+
+2. Run it from command line by executing : `./ngrok http 5000`
+
+3. Now you can access your app runnig locally from a distant machine using the provided URL (something like this `https://******.ngrok.io`)
+
+4. Now you can go back to Twilio sandbox and paste it as URL for incoming messages :
+
+<img src="./images/twiliongrok.PNG" alt="twiliongrok">
 
 
 
