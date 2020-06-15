@@ -36,12 +36,18 @@ When you activate your sandbox, you will see the phone number associated with it
 
 1. Create a new virtual environment :
 
-  * In a new folder open terminal and execute : `python -m venv myvenv`
+    * In a new folder open terminal and execute : `python -m venv myvenv`
  
 2. Activate your virtual environment :
     * Windows : `> myvenv\Scripts\activate`
     
     * Linux : ` # source myvenv/bin/activate`
+    
+3.  Install these two Python packages : 
+    
+    * [Flask](https://flask.palletsprojects.com)  : `pip install flask`
+    
+    * [Twilio](https://www.twilio.com) : `pip install twilio'
 
 ## Get a public address to the app using _Ngrok_
 
