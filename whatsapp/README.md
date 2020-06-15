@@ -34,11 +34,14 @@ When you activate your sandbox, you will see the phone number associated with it
 
 ## Create the application using _Flask_
 
-1. Create a new virtual environment 
+1. Create a new virtual environment :
+
+  * In a new folder open terminal and execute : `python -m venv myvenv`
+ 
+2. Activate your virtual environment :
+    * Windows : `> myvenv\Scripts\activate`
     
-    * Windows : `# abcd`
-    
-    * Linux : `abcd`
+    * Linux : ` # source myvenv/bin/activate`
 
 ## Get a public address to the app using _Ngrok_
 
