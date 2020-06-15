@@ -40,15 +40,15 @@ When you activate your sandbox, you will see the phone number associated with it
  
 **2.** Activate your virtual environment :
   
-  * Windows : `> myvenv\Scripts\activate`
+  * Windows : `myvenv\Scripts\activate`
     
-  * Linux : ` # source myvenv/bin/activate`
+  * Linux   : `source myvenv/bin/activate`
     
 **3.**  Install these two Python packages : 
-    
-  * [Flask](https://flask.palletsprojects.com)  : `pip install flask`
-    
+
   * [Twilio](https://www.twilio.com) : `pip install twilio`
+  
+  * [Flask](https://flask.palletsprojects.com)  : `pip install flask` <sup>[1](#myfootnote1)</sup>
     
 **4.** Create a Flask App : 
 
@@ -104,11 +104,18 @@ However, it wouldn't be possible for distant machines to access your app, hence 
 
 **4.** Now you can go back to Twilio sandbox and paste it as URL for incoming messages :
 
-<img src="./images/twiliongrok.PNG" alt="twiliongrok">
+<img src="./images/twiliongro.PNG" alt="twiliongrok">
 
+**5.** You can now open WhatsApp in your phone, add the number you've got from Twilio in the [first step above](#Twilio), and start the conversation by the code they told you to start with (here **regular-syllable**)
 
+**6.** You can now send whatever Whatsapp message you want and the bot will reply by sending back the same message. It is kind of a parrot bot :smiley:
 
 ## Get rid of your machine and use _Heroku_
 
 
 ## Advanced chatbots
+
+# 
+<h5>
+<a name="myfootnote1">1</a>: Flask is a micro web framework written in Python<br>
+</h5>
