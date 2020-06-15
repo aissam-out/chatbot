@@ -36,7 +36,7 @@ When you activate your sandbox, you will see the phone number associated with it
 
 **1.** Create a new virtual environment :
 
-    * In a new folder open terminal and execute : `python -m venv myvenv`
+  * In a new folder open terminal and execute : `python -m venv myvenv`
  
 **2.** Activate your virtual environment :
     * Windows : `> myvenv\Scripts\activate`
