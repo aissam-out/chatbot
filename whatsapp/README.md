@@ -34,6 +34,11 @@ When you activate your sandbox, you will see the phone number associated with it
 
 ## Create the application using _Flask_
 
+1. Create a new virtual environment 
+    
+    * Windows : `# abcd`
+    
+    * Linux : `abcd`
 
 ## Get a public address to the app using _Ngrok_
 
