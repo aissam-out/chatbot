@@ -79,9 +79,13 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
+This is a basic flask web app where when we can get `Hello, world!` in **/** and get back our message if we POST it to **/sms** as we can see in the following steps
+
 5. Run the app : `python app.py`
  
-<img src="./images/apprun.PNG" alt="twilio">
+<img src="./images/appru.PNG" alt="twilio">
+
+Your application is now 
 
 
 
