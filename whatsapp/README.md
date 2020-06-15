@@ -52,7 +52,7 @@ When you activate your sandbox, you will see the phone number associated with it
     
 **4.** Create a Flask App : 
 
-In your virtual environment, create a file named _app.py_ then copy/paste the following code : 
+In your folder, create a file named _app.py_ then _copy&paste_ the following code : 
 
 ```
 from flask import Flask, request
