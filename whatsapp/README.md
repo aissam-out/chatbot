@@ -50,7 +50,8 @@ When you activate your sandbox, you will see the phone number associated with it
     * [Twilio](https://www.twilio.com) : `pip install twilio`
     
 4. Create a Flask App : In your virtual environment, create a file named _app.py_ then copy/paste the following code
-`
+
+```
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 
@@ -74,7 +75,7 @@ def sms_reply():
 
 if __name__ == "__main__":
     app.run(debug=True)
-`
+```
 
 ## Get a public address to the app using _Ngrok_
 
