@@ -106,7 +106,7 @@ However, it wouldn't be possible for distant machines to access your app, hence 
 
 <img src="./images/twngrok.PNG" alt="twiliongrok">
 
-**5.** You can now open WhatsApp in your phone, add the number you've got from Twilio in the [first step above](#Twilio), and start the conversation by the code they told you to start with (here **join regular-syllable**)
+**5.** You can now open WhatsApp in your phone, add the number you've got from Twilio in the [first step above](#Twilio) (**+1 415 ...**), and start the conversation by the code they told you to start with (here **join regular-syllable**)
 
 **6.** You can now send whatever Whatsapp message you want and the bot will reply by sending back the same message. It is kind of a parrot bot :smiley:
 
