@@ -85,11 +85,17 @@ This is a basic flask web app which enables us to get `Hello, world!` in **/** r
  
 <img src="./images/apprun.PNG" alt="twilio">
 
-Your application is now 
+Your application is now running ..
 
+You can check that by typing `http://127.0.0.1:5000/` in your browser. (You'll get `Hello, world!`)
 
+However, it wouldn't be possible for distant machines to access your app, hence the need for **Ngrok**
 
 ## Get a public address to the app using _Ngrok_
+
+[Ngrok](https://ngrok.com) will enable us to have a public URL for our application running locally.
+
+
 
 
 ## Get rid of your machine and use _Heroku_
