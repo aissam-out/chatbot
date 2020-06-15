@@ -39,15 +39,16 @@ When you activate your sandbox, you will see the phone number associated with it
   * In a new folder open terminal and execute : `python -m venv myvenv`
  
 **2.** Activate your virtual environment :
-    * Windows : `> myvenv\Scripts\activate`
+  
+  * Windows : `> myvenv\Scripts\activate`
     
-    * Linux : ` # source myvenv/bin/activate`
+  * Linux : ` # source myvenv/bin/activate`
     
 **3.**  Install these two Python packages : 
     
-    * [Flask](https://flask.palletsprojects.com)  : `pip install flask`
+  * [Flask](https://flask.palletsprojects.com)  : `pip install flask`
     
-    * [Twilio](https://www.twilio.com) : `pip install twilio`
+  * [Twilio](https://www.twilio.com) : `pip install twilio`
     
 **4.** Create a Flask App : 
 
