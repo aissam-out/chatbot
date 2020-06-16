@@ -115,7 +115,7 @@ However, we still have a major problem here, your machine should remain running 
 ## Get rid of your machine and use _Heroku_
 
 <p align="center">
-<img src="./images/heroku.PNG" alt="twilio" width="350" height="100">
+<img src="./images/heroku.png" alt="heroku" width="350" height="100">
 </p>
 
 Thanks to [Heroku]() we will be able to deploy our application, and all the requirments it needs to run effectively, in the Cloud, hence our machine will have the luxury of being turned off. To do so we need to :
