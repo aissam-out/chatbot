@@ -110,6 +110,8 @@ However, it wouldn't be possible for distant machines to access your app, hence 
 
 **6.** You can now send whatever Whatsapp message you want and the bot will reply by sending back the same message. It is kind of a parrot bot :smiley:
 
+However, we still have a major problem here, your machine should remain running all the time to allow the application to answer users' requests
+
 ## Get rid of your machine and use _Heroku_
 
 
