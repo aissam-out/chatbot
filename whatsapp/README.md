@@ -1,7 +1,7 @@
 # WhatsApp Chatbot
 
 <p>
-<img src="./images/whatsapp.png" alt="twilio" width="130" height="130" align="right">
+<img src="./images/whatsapp.png" alt="whatsapp" width="130" height="130" align="right">
   
 WhatsApp is the most popular OTT app in many parts of the world. Thanks to whatsapp chatbots you can provide your customers with support on a platform they use and answer their questions immediately.
 
@@ -118,7 +118,7 @@ However, we still have a major problem here, your machine should remain running 
 <img src="./images/heroku.png" alt="heroku" width="350" height="100">
 </p>
 
-Thanks to [Heroku]() we will be able to deploy our application, and all the requirments it needs to run effectively, in the Cloud, hence our machine will have the luxury of being turned off. To do so we need to :
+Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our application, and all the requirments it needs to run effectively, in the Cloud, hence our machine will have the luxury of being turned off. To do so we need to :
 
 **1.** In our virtual environment, install **gunicorn** <sup>[2](#myfootnote2)</sup> : `pip install gunicorn`
 
