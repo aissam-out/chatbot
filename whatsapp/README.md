@@ -114,6 +114,25 @@ However, we still have a major problem here, your machine should remain running 
 
 ## Get rid of your machine and use _Heroku_
 
+Thanks to [Heroku]() we will be able to deploy our application, and all the requirments it needs to run effectively, in the Cloud, hence our machine will have the luxury of being turned off. To do so we need to :
+
+**1.** In our virtual environment, install **gunicorn** : `pip install gunicorn`
+
+**2.** Create these files in your folder :
+  
+  * **Procfile** : then save this content in it `web gunicorn app:app`
+  
+  * **runtime.txt** : then save this content in it `python-3.7.2`
+  
+  * **requirments.txt** : You can simply type `pip freeze > requirements.txt` to fill it with all 3rd party libraries required by your app.
+  
+  * **.gitignore** : then save this content in it 
+  
+  ```
+  myvenv/
+  *.pyc
+  ```
+
 
 ## Advanced chatbots
 
