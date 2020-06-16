@@ -118,7 +118,7 @@ However, we still have a major problem here, your machine should remain running 
 <img src="./images/heroku.png" alt="heroku" width="350" height="100">
 </p>
 
-Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our application, and all the requirments it needs to run effectively, in the Cloud, hence our machine will have the luxury of being turned off. To do so we need to :
+Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our application, and all the requirments it needs to run effectively, in the Cloud. Hence our machine will benefit from the luxury of being turned off. To do so we need to :
 
 **1.** In our virtual environment, install **gunicorn** <sup>[2](#myfootnote2)</sup> : `pip install gunicorn`
 
