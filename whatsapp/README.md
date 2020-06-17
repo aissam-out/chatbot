@@ -137,7 +137,7 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
   *.pyc
   ```
 
-**3.**
+**3.** Download & install [Git](https://git-scm.com/downloads)<sup>[3](#myfootnote3)</sup>
 
 **4.** Create a new [Heroku account](https://signup.heroku.com) if you don't have one. Then download Heroku [Command Line Interface (CLI)](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) which makes it easy to create and manage your Heroku apps directly from the terminal.
 
@@ -147,4 +147,5 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
 <h5>
 <a name="myfootnote1">1</a>: Flask is a micro web framework written in Python<br>
 <a name="myfootnote2">2</a>: Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server<br>
+<a name="myfootnote3">3</a>: Git is a distributed version-control system for tracking changes in source code during software development<br>
 </h5>
