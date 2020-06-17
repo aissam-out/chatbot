@@ -137,7 +137,13 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
   *.pyc
   ```
 
-**3.** Download & install [Git](https://git-scm.com/downloads)<sup>[3](#myfootnote3)</sup>
+**3.** Download & install [Git](https://git-scm.com/downloads)<sup>[3](#myfootnote3)</sup>; then in your virtual environment:
+
+  * Initialize a new git repository in your project folder : `git init`
+  
+  * Add all untracked files to git repository : `git add .`
+  
+  * Commit the changes to git repository : `git commit -m "first commit"`
 
 **4.** Create a new [Heroku account](https://signup.heroku.com) if you don't have one. Then download Heroku [Command Line Interface (CLI)](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) which makes it easy to create and manage your Heroku apps directly from the terminal.
 
