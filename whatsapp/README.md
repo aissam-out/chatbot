@@ -147,7 +147,7 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
 
 **4.** Create a new [Heroku account](https://signup.heroku.com) if you don't have one. Then download Heroku [Command Line Interface (CLI)](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) which makes it easy to create and manage your Heroku apps directly from the terminal.
 
-**5.** Connect to your Heroku account from your virtual environment using `heroku login` then you will be forwarded to a web-based inteface to complete the authentication.
+**5.** Connect to your Heroku account from your virtual environment using `heroku login` then you will be forwarded to a web-based inteface in the browser to complete the authentication phase.
 
 ## Advanced chatbots
 
