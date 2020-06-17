@@ -137,6 +137,9 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
   *.pyc
   ```
 
+**3.**
+
+**4.** Create a new [Heroku account](https://signup.heroku.com) if you don't have one. Then download Heroku [Command Line Interface (CLI)](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) which makes it easy to create and manage your Heroku apps directly from the terminal.
 
 ## Advanced chatbots
 
