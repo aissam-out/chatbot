@@ -152,6 +152,8 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
 **6.** Create a new Heroku app. `heroku create <app-name>`
 
 **7.** Deploy your app by pushing your local git repository to the remote Heroku app's git repository : `git push heroku master`
+
+When the deployment is done, you will see in the terminal the address where you can reach to your app. Copy it and go back to your sandbox to replace _Ngrok_ URL by the new _Heroku_ one
   
 ## Advanced chatbots
 
