@@ -156,6 +156,8 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
 Finally, when the deployment is done, you will see in the terminal the address where you can reach to your app. -something like `https://<app-name>.herokuapp.com/sms`- Copy it and go back to your sandbox to replace the _Ngrok_ URL by the new _Heroku_ one
 
 <img src="./images/twheroku.PNG" alt="twilioheroku">
+
+Congratulations your parrot Whatsapp Bot is now running 24/7, it does not need assistance from your machine anymore :smiley: you can turn it off.
   
 ## Advanced chatbots
 
