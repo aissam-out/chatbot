@@ -149,6 +149,10 @@ Thanks to [Heroku](https://www.heroku.com) we will be able to deploy our applica
 
 **5.** Connect to your Heroku account from your virtual environment using `heroku login` then you will be forwarded to a web-based inteface in the browser to complete the authentication phase.
 
+**6.** Create a new Heroku app. `heroku create <app-name>`
+
+**7.** Deploy your app by pushing your local git repository to the remote Heroku app's git repository : `git push heroku master`
+  
 ## Advanced chatbots
 
 # 
