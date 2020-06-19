@@ -164,7 +164,7 @@ Congratulations your parrot Whatsapp Bot is now running 24/7, it does not need a
 Say, you come up tomorrow with another idea rather this parrot bot you've made, all you need to do is to make the changes in your code (in the file _app.py_, you can also add more files if the project is complex) then:
 
 ```
-**# connect to your virtual environment**
+# connect to your virtual environment
 <virtual_environment_name>\Scripts\activate #Windows
 source <virtual_environment_name>/bin/activate #Linux
 
