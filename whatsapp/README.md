@@ -159,10 +159,23 @@ Finally, when the deployment is done, you will see in the terminal the address w
 
 Congratulations your parrot Whatsapp Bot is now running 24/7, it does not need assistance from your machine anymore :smiley: you can turn it off.
 
-> Say, you come up tomorrow with another idea of bot, all you need to do is to make the changes in your code (_app.py_) then :
-> jhqs
+## Update your code
 
-> jhdk
+Say, you come up tomorrow with another idea of bot rather this parrot thing you've made, all you need to do is to make the changes in your code (in the file _app.py_, you can also add more files if the project is complex) then:
+
+```
+<virtual_environment_name>\Scripts\activate
+
+heroku login
+
+git init
+
+git add .
+
+git commit -m "first change"
+
+git push heroku master
+```
 
 ## Advanced chatbots
 
