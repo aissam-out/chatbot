@@ -165,7 +165,8 @@ Say, you come up tomorrow with another idea rather this parrot bot you've made, 
 
 ```
 # connect to your virtual environment
-<virtual_environment_name>\Scripts\activate
+<virtual_environment_name>\Scripts\activate #Windows
+source <virtual_environment_name>/bin/activate #Linux
 
 # connect to your heroku account
 heroku login 
