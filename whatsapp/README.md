@@ -158,7 +158,12 @@ Finally, when the deployment is done, you will see in the terminal the address w
 <img src="./images/twheroku.PNG" alt="twilioheroku">
 
 Congratulations your parrot Whatsapp Bot is now running 24/7, it does not need assistance from your machine anymore :smiley: you can turn it off.
-  
+
+> Say, you come up tomorrow with another idea of bot, all you need to do is to make the changes in your code (_app.py_) then :
+> jhqs
+
+> jhdk
+
 ## Advanced chatbots
 
 # 
