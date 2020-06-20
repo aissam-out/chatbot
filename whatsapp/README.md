@@ -179,9 +179,13 @@ git push heroku master
 
 ## Use your own number
 
-If you want to create a serious business whatsapp bot, the approach I presented earlier presents two drawbacks for you : <br>**(1)** in order to use the bot, your clients must kick off the conversation with a certain message (here **join regular-syllable**); <br>**(2)** the bot comes up with th logo of twilio instead of yours. This is due to the fact that you use the twilio sandbox and the number you are provided with is not your own number. 
+If you want to create a serious business Whatsapp bot, the approach I presented earlier presents two drawbacks for you : 
 
-Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems
+**(1)** In order to use the bot, your clients **must** kick off the conversation with a certain message (here **join regular-syllable**); 
+
+**(2)** The bot comes up with the logo of Twilio instead of yours. 
+
+This is due to the fact that we used the Twilio sandbox and the number you are provided with is not yours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems.
 
 ## Advanced chatbots
 
