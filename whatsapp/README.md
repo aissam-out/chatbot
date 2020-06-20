@@ -177,7 +177,10 @@ git commit -m "first change"
 git push heroku master
 ```
 
-## Use you own number
+## Use your own number
+
+If you want to create a serious business whatsapp bot, the approach I presented earlier presents two drawbacks for you : **(1)** in order to use the bot, your clients must kick off the conversation with a certain message (here **join regular-syllable**); **(2)** the bot comes up with th logo of twilio instead of yours. This is due to the fact that you use the twilio sandbox and the number you are provided with is not your own number.
+
 
 ## Advanced chatbots
 
