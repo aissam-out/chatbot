@@ -187,6 +187,10 @@ If you want to create a serious business Whatsapp bot, the approach I presented 
 
 This is due to the fact that we used the Twilio sandbox and the number you are provided with is not yours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems.
 
+https://www.twilio.com/whatsapp/request-access
+
+https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
+
 ## Advanced chatbots
 
 # 
