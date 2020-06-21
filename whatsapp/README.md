@@ -193,10 +193,11 @@ This is due to the fact that we used the Twilio sandbox and the number we were p
 
 **Step 2 :** Request access to enable your Twilio numbers for WhatsApp by filling out [Twilio's "Request Access" form](https://www.twilio.com/whatsapp/request-access) (make sure you have your Facebook Business Manager ID)
 
-When your request will be approved, Twilio will notify you with a message which will walk you through the next steps for you to follow for submitting your sender Profile and WhatsApp Message Templates
+When your request will be approved, Twilio will notify you with an email which will walk you through the next steps for you to follow for submitting your sender Profile and WhatsApp Message Templates, then another email that will show you how to approve Twilio to send messages on your behalf and to Verify your Facebook Business Manager account.
 
+So, after sending the request, check your emails frequently for the next steps. The whole process takes 2 to 3 weeks.
 
-https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
+[Further information about the process](https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile)
 
 ## Advanced chatbots
 
