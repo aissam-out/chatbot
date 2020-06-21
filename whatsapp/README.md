@@ -185,9 +185,9 @@ If you want to create a serious business Whatsapp bot, the approach I presented 
 
 **(2)** The bot comes up with the logo of Twilio instead of yours. 
 
-This is due to the fact that we used the Twilio sandbox and the number you are provided with is not yours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems.
+This is due to the fact that we used the Twilio sandbox and the number we were provided with is not ours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems. To do so, here are the steps you need to follow :
 
-https://www.twilio.com/whatsapp/request-access
+**Step 1 :** Request access to enable your Twilio numbers for WhatsApp by filling out [Twilio's "Request Access" form](https://www.twilio.com/whatsapp/request-access) (make sure you have your Facebook Business Manager ID)
 
 https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
 
