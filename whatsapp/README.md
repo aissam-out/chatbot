@@ -185,7 +185,7 @@ If you want to create a serious business Whatsapp bot, the approach I presented 
 
 **(2)** The bot comes up with the logo of Twilio instead of yours. 
 
-This is due to the fact that we used the Twilio sandbox and the number we were provided with is not ours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems. To do so, here are the steps you need to follow :
+This is due to the fact that we used the Twilio sandbox and the number we were provided with is not ours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementioned problems. To do so, here are the steps you need to follow :
 
 **Step 1 :** Buy a [Twilio number](https://www.twilio.com/console/phone-numbers/search)
 
