@@ -187,7 +187,14 @@ If you want to create a serious business Whatsapp bot, the approach I presented 
 
 This is due to the fact that we used the Twilio sandbox and the number we were provided with is not ours. However, Twilio offers you the possibility to own a number and consequently get rid of the aforementionned problems. To do so, here are the steps you need to follow :
 
-**Step 1 :** Request access to enable your Twilio numbers for WhatsApp by filling out [Twilio's "Request Access" form](https://www.twilio.com/whatsapp/request-access) (make sure you have your Facebook Business Manager ID)
+**Step 1 :** Buy a [Twilio number](https://www.twilio.com/console/phone-numbers/search)
+
+<img src="./images/twilionumber.PNG" alt="twilionumber">
+
+**Step 2 :** Request access to enable your Twilio numbers for WhatsApp by filling out [Twilio's "Request Access" form](https://www.twilio.com/whatsapp/request-access) (make sure you have your Facebook Business Manager ID)
+
+When your request will be approved, Twilio will notify you with a message which will walk you through the next steps for you to follow for submitting your sender Profile and WhatsApp Message Templates
+
 
 https://www.twilio.com/docs/whatsapp/tutorial/connect-number-business-profile
 
