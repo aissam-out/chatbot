@@ -177,6 +177,8 @@ git commit -m "first change"
 git push heroku master
 ```
 
+:warning: If you installed new packages in your virtual environment, you have to tell Heroku about them by updating the file **requirments.txt** too : Just type `pip freeze > requirements.txt` to do so.
+
 ## Use your own number
 
 If you want to create a serious business Whatsapp bot, the approach I presented earlier presents two drawbacks for you : 
