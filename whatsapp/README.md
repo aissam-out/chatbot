@@ -207,13 +207,12 @@ So, after sending the request, make sure you check your emails frequently for th
 <img src="./images/dialogo.jpg" alt="DialogFlow logo" width="350" height="100">
 </p>
 
-[Dialogflow](https://dialogflow.com) is a natural language understanding platform used to design and integrate a conversational user interface into mobile apps, web applications, devices, bots, interactive voice response systems, and so on. <sup>[4](#myfootnote4)</sup>
-
+[Dialogflow](https://dialogflow.com) is a NLP<sup>[4](#myfootnote4)</sup> platform developed by Google and used to design and integrate a conversational user interface into web/mobile apps, devices, bots, interactive voice response systems, and so on. In this section, we will use the power of this tool to upgrade our chtbot to be more realistic and conversational.
 
 # 
 <h5>
 <a name="myfootnote1">1</a>: Flask is a micro web framework written in Python<br>
 <a name="myfootnote2">2</a>: Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server<br>
 <a name="myfootnote3">3</a>: Git is a distributed version-control system for tracking changes in source code during software development<br>
-<a name="myfootnote4">4</a>: Wikipedia
+<a name="myfootnote4">4</a>: Natural language processing is a subfield of Machine Learning concerned with the interactions between computers and human languages.
 </h5>
