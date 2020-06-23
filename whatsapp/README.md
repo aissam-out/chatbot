@@ -204,7 +204,7 @@ So, after sending the request, make sure you check your emails frequently for th
 ## Advanced chatbots
 
 <p align="center">
-<img src="./images/dialogo.PNG" alt="DialogFlow logo" width="350" height="100">
+<img src="./images/dialogo.png" alt="DialogFlow logo" width="350" height="100">
 </p>
 
 [Dialogflow](https://dialogflow.com) is a natural language understanding platform used to design and integrate a conversational user interface into mobile apps, web applications, devices, bots, interactive voice response systems, and so on.
