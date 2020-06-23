@@ -207,7 +207,7 @@ So, after sending the request, make sure you check your emails frequently for th
 <img src="./images/dialogo.jpg" alt="DialogFlow logo" width="350" height="100">
 </p>
 
-[Dialogflow](https://dialogflow.com) is a NLP<sup>[4](#myfootnote4)</sup> platform developed by Google and used to design and integrate a conversational user interface into web/mobile apps, devices, bots, personal assistant systems, and so on. In this section, we will use the power of this tool to upgrade our chtbot to be more realistic and conversational.
+[Dialogflow](https://dialogflow.com) is a NLP<sup>[4](#myfootnote4)</sup> platform developed by Google and used to design and integrate a conversational user interface into web/mobile apps, devices, bots, personal assistant systems, and so on. In this section, we will use the power of this tool to upgrade our chatbot to be more realistic and conversational.
 
 # 
 <h5>
