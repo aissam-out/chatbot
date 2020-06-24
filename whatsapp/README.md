@@ -209,6 +209,26 @@ So, after sending the request, make sure you check your emails frequently for th
 
 [Dialogflow](https://dialogflow.com) is a NLP<sup>[4](#myfootnote4)</sup> platform developed by Google and used to design and integrate a conversational user interface into web/mobile apps, devices, bots, personal assistant systems, and so on. In this section, we will use the power of this tool to upgrade our chatbot to be more realistic and conversational.
 
+**1.** Login into [DialogFlow COnsole]() and create a new agent 
+
+
+**2.** In the leftside menu select **Prebuilt Agents** then _import_ the **Restaurant Booking** agent. You will be asked about Google project, select _Create a new Google project_ and click _Ok_, then wait until your agent is successfully imported to your account
+
+
+**3.** From settings page of agent _(1)_, open the service account of your project in Google Cloud Console _(2)_
+
+
+
+**4.** Create a new service account for your project
+
+  * Give it a name (hotel booking), a role (owner), don't fill optional settings and click on **DONE**
+  
+  * Click on the three points under _Actions_ > _Create Key_ > select _JSON_ then _Create_ to download private key for the service account
+
+
+
+**5.** Go back to your virtual environment and install the Python client for DialogFlow : `pip install dialogflow`
+
 # 
 <h5>
 <a name="myfootnote1">1</a>: Flask is a micro web framework written in Python<br>
