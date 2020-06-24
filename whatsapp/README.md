@@ -217,11 +217,11 @@ So, after sending the request, make sure you check your emails frequently for th
   
   * Select **Small Talk** > **Enable** > **Save**
 
-img
+<img src="./images/dfjokes.PNG" alt="dialogflow jokes and small talk">
 
 **3.** From settings page of agent _(1)_, open the service account of your project in Google Cloud Console _(2)_
 
-img
+<img src="./images/dfsaccount.PNG" alt="dialogflow service account">
 
 :warning: Note that we will need the Project ID in step 6
 
@@ -231,7 +231,7 @@ img
   
   * Click on the three points under _Actions_ > _Create Key_ > select _JSON_ then _Create_ to download private key for the service account
 
-img
+<img src="./images/gcpkey.PNG" alt="google cloud platform s key">
 
 **5.** Go back to your virtual environment and install the Python client for DialogFlow : `pip install dialogflow`
 
