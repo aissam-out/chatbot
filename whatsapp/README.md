@@ -242,7 +242,7 @@ So, after sending the request, make sure you check your emails frequently for th
 **8.** Your chatbot is now ready to tell you jokes .. Enjoy!
 
 <p align="center">
-<img src="./images/conversation.PNG" alt="conversation" width="400" height="350">
+<img src="./images/conversation.PNG" alt="conversation" width="400" height="380">
 </p>
 
 # 
