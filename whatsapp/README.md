@@ -241,6 +241,10 @@ So, after sending the request, make sure you check your emails frequently for th
 
 **8.** Your chatbot is now ready to tell you jokes .. Enjoy!
 
+<p align="center">
+<img src="./images/conversation.PNG" alt="conversation" width="250" height="300">
+</p>
+
 # 
 <h5>
 <a name="myfootnote1">1</a>: Flask is a micro web framework written in Python<br>
