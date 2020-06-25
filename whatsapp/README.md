@@ -217,11 +217,11 @@ So, after sending the request, make sure you check your emails frequently for th
   
   * Select **Small Talk** > **Enable** > **Save**
 
-<img src="./images/dfjokes.PNG" alt="dialogflow jokes and small talk" height="330">
+<img src="./images/dfjokes.PNG" alt="dialogflow jokes and small talk" height="450">
 
 **3.** From settings page of agent _(1)_, open the service account of your project in Google Cloud Console _(2)_
 
-<img src="./images/dfsaccount.PNG" alt="dialogflow service account" height="530">
+<img src="./images/dfsaccount.PNG" alt="dialogflow service account" height="500">
 
 :warning: Note that we will need the Project ID in step 6
 
