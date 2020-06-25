@@ -5,11 +5,11 @@ import dialogflow_v2 as dialogflow
 from twilio.twiml.messaging_response import MessagingResponse
 
 # INSERT JSON key's PATH
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "jokes-bupppg-d3f2d8a46c85.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "PATH_TO_KEY.json"
 
 # INSERT YOUR PROJECT ID
 dialogflow_session_client = dialogflow.SessionsClient()
-PROJECT_ID = "jokes-bupppg"
+PROJECT_ID = "PROJECT ID"
 
 def detect_intent_from_text(text, session_id, language_code='en'):
     session = dialogflow_session_client.session_path(PROJECT_ID, session_id)
