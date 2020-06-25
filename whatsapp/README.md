@@ -237,6 +237,10 @@ So, after sending the request, make sure you check your emails frequently for th
 
 **6.** Change the content of your _app.py_ file with the content of [this file](./app.py) 
 
+**7.** Update your code in Heroku as we have seen in [a previous section](#Update-your-code)
+
+**8.** Your chatbot is now ready to tell you jokes .. Enjoy!
+
 # 
 <h5>
 <a name="myfootnote1">1</a>: Flask is a micro web framework written in Python<br>
