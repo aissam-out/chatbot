@@ -1,11 +1,16 @@
 # Messenger Chatbot
 
+<p>
+<img src="./images/messenger.png" alt="messenger" width="100" height="100" align="right">
+  
 [Messenger](https://www.messenger.com) is an American messaging app and platform developed by Facebook, it enables users to send messages and exchange photos, videos, stickers, audio, and files. In this project we will build a Messenger Chatbot en se utilisant Twilio Autopilot.
+</p>
+
 
 ## Twilio
 
 <p align="center">
-<img src="../whatsapp/images/twilio.png" alt="twilio" width="350" height="100">
+<img src="./images/twilio.png" alt="twilio" width="350" height="100">
 </p>
 
 Twilio is a cloud communications platform as a service (CPaaS) company which allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.
