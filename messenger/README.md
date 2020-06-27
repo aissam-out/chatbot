@@ -21,15 +21,21 @@ Before starting this project, make sure you have a Facebook Page for your brand 
 
 Make sure you have created an Autopilot assistant to power the Facebook Messenger Bot.
 
+## Create and configure the Autopilot assistant
+
 **1.** Create a [Twilio account](https://www.twilio.com/try-twilio)
 
 **2.** Create a [new project](https://www.twilio.com/console/projects/create)
       
-**3.** On project console, open Programmable SMS Dashboard
+**3.** On project console, open **Autopilot**, then create a new bot _from scratch_ if you don't have one.
 
-**4.** Select WhatsApp Beta
+**4.** In the dashboard of your bot, select _Tasks_ on the left menu. 
+
+
 
 <img src="./images/sandbox.PNG" alt="sandbox">
 
+
+## Link the assistant to your Facebook Messenger 
 
 you can build Facebook Messenger bots. On this page, we'll walk you through how to link your Facebook account to Autopilot so you can get started building your Facebook Messenger bot.
