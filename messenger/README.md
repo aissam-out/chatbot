@@ -41,7 +41,7 @@ Every task has two main features _Program_ and _Train_
 
 <img src="./images/tasks.PNG" alt="tasks">
 
-**Program** helps you program the actions your bot will perform in a given task. You need to replace the JSON text with your proper needs. for instance if you want to answer by a static text, change the text after **"say" :** by whatever you want your bot to say when this task is called :
+* **Program** : Helps you program the actions your bot will perform in a given task. You need to replace the JSON text with your proper needs. for instance if you want to answer by a static text, change the text after **"say" :** by whatever you want your bot to say when this task is called :
 
 ```
 {
@@ -65,7 +65,7 @@ If you want to execute a distant code or call an API :
 }
 ```
 
-**Train** Click on this button to add the expressions that will trigger this task. Add as many samples as possible so that your bot can map human input to the task.
+* **Train** : Click on this button to add the expressions that will trigger this task. Add as many samples as possible so that your bot can map human input to the task.
 
 <img src="./images/train.PNG" alt="tasks">
 
