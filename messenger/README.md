@@ -65,6 +65,11 @@ If you want to execute a distant code or call an API :
 }
 ```
 
+**Train** Click on this button to add the expressions that will trigger this task. Add as many samples as possible so that your bot can map human input to the task.
+
+<img src="./images/train.PNG" alt="tasks">
+
+DO NOT FORGET to click **BUILD MODEL** whenever you make changes to your bot
 
 ## Link the assistant to your Facebook Messenger 
 
