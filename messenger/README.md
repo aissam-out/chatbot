@@ -69,7 +69,7 @@ If you want to execute a distant code or call an API :
 
 <img src="./images/train.PNG" alt="tasks">
 
-DO NOT FORGET to click **BUILD MODEL** whenever you make changes to your bot
+:warning: DO NOT FORGET to click **BUILD MODEL** whenever you make changes to your bot
 
 ## Link the assistant to your Facebook Messenger 
 
