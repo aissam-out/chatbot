@@ -29,11 +29,17 @@ Make sure you have created an Autopilot assistant to power the Facebook Messenge
       
 **3.** On project console, open **Autopilot**, then create a new bot _from scratch_ if you don't have one.
 
+<img src="./images/createbot.PNG" alt="create bot">
+
 **4.** In the dashboard of your bot, select _Tasks_ on the left menu. 
 
+A bot usually has many tasks that power it. These could be simple tasks like confirm or cancel or more complex tasks like make-a-reservation
 
+**5.** CLick on _Add a task_ and give it a (meaningful) name. Create as many tasks as you need your bot to handle.
 
-<img src="./images/sandbox.PNG" alt="sandbox">
+Every task has two main features _Program_ and _Train_
+
+<img src="./images/tasks.PNG" alt="tasks">
 
 
 ## Link the assistant to your Facebook Messenger 
