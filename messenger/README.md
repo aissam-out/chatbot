@@ -41,6 +41,30 @@ Every task has two main features _Program_ and _Train_
 
 <img src="./images/tasks.PNG" alt="tasks">
 
+**Program** helps you program the actions your bot will perform in a given task. You need to replace the JSON text with your proper needs. for instance if you want to answer by a static text, change the text after "say" : by whatever you want your bot to say when this task is called :
+
+```
+{
+    "actions": [
+        {
+            "say": "Hello, how can I help you?"
+        }
+    ]
+}
+```
+
+If you want to execute a distant code or call an API :
+
+```
+{
+	"actions": [
+		{
+			"redirect": "PUT THE URL HERE"
+		}
+	]
+}
+```
+
 
 ## Link the assistant to your Facebook Messenger 
 
