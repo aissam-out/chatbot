@@ -17,9 +17,9 @@ In this project we will build a Messenger Chatbot using Twilio Autopilot.
 
 [Twilio](https://www.twilio.com) is a cloud communications platform as a service (CPaaS) company which allows software developers to programmatically make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.
 
-With the Twilio API for WhatsApp, you can send notifications, have two-way conversations, or build chatbots. 
+Before starting this project, make sure you have a Facebook Page for your brand or business, and the Messenger App installed in your phone. If so, the following steps will walk you through the process of creating and configuring your Facebook Messenger channel on Twilio, and then to link it with your FB page :
 
-For free, and without waiting for your Twilio number to be approved for WhatsApp, Twilio Sandbox for WhatsApp enables you to create your chatbot immediately as we are about to see in this project .
+Make sure you have created an Autopilot assistant to power the Facebook Messenger Bot.
 
 **1.** Create a [Twilio account](https://www.twilio.com/try-twilio)
 
