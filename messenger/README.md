@@ -35,7 +35,7 @@ Make sure you have created an Autopilot assistant to power the Facebook Messenge
 
 A bot usually has many tasks that power it. These could be simple tasks like confirm or cancel or more complex tasks like make-a-reservation
 
-**5.** CLick on _Add a task_ and give it a (meaningful) name. Create as many tasks as you need your bot to handle.
+**5.** CLick on _Add a task_ and give it a (meaningful) name. Create as many tasks as your bot have to handle.
 
 Every task has two main features _Program_ and _Train_
 
