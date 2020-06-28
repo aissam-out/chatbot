@@ -77,8 +77,8 @@ If you want to execute a distant code or call an API :
 
 **1.** Go to [this link](https://www.twilio.com/console/channels/XB93e989ba4b741738f51c3f0e12076d42) and click _install_ to install the Facebook Messenger channel on your Twilio account.
 
+**2.** In the _Configure_ section, select _Properties_ > _Use in_ > _Programmable SMS Inbound_
 
-Once installed, you'll see a Configure section.
-In the Properties section, select Use in -> Programmable SMS Inbound
+
 In the Credentials section, click the Facebook Log in button to link and follow the instructions. This will link your Facebook page with your Twilio Account.
 Select the Facebook page that you want to build your Bot for. You'll see most of the Configuration fields auto-populate below.
