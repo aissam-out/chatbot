@@ -83,8 +83,12 @@ If you want to execute a distant code or call an API :
 
 **4.** If all goes well, after selecting your Facebook page you'll see most of the Configuration fields auto-populate below. We only have one main field left : _Callback URL_
 
-	* Go back to your assistant ( [Autopilot Console](https://www.twilio.com/console/autopilot/) > your assistant )
+* Go back to your assistant ( [Autopilot Console](https://www.twilio.com/console/autopilot/) > your assistant )
 	
-	* Select _Channels_ > _Facebook Messenger_. In the _Configuration_ section, you will see the URL we are looking for, copy it
+* Select _Channels_ > _Facebook Messenger_. In the _Configuration_ section, you will see the URL we are looking for, copy it
 
-	* Go back to the FB Messenger Configuration page and paste that URL on the _Callback URL_ field
+* Go back to the FB Messenger Configuration page and paste that URL on the _Callback URL_ field
+
+**5.** _Save_ your configuration, and go to Messenger app on your mobile, search for the name of your Facebook page, and start the conversation.
+
+<img src="./images/autopilotconfig.PNG" alt="autopilot configuration">
