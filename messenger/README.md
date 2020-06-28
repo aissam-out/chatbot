@@ -91,4 +91,4 @@ If you want to execute a distant code or call an API :
 
 **5.** _Save_ your configuration, and go to Messenger app on your mobile, search for the name of your Facebook page, and start the conversation.
 
-<img src="./images/autopilotconfig.PNG" alt="autopilot configuration">
+<img src="./images/autopilotcfg.PNG" alt="autopilot configuration">
