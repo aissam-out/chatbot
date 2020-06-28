@@ -81,5 +81,10 @@ If you want to execute a distant code or call an API :
 
 **3.** Go to _Credentials_ and click the _Facebook Log in_ button and follow the instructions to link your Facebook page with your Twilio Account.
 
-**4.** 
+**4.** If all goes well, after selecting your Facebook page you'll see most of the Configuration fields auto-populate below. We only have one main field left : _Callback URL_
 
+	* Go back to your assistant ( [Autopilot Console](https://www.twilio.com/console/autopilot/) > your assistant )
+	
+	* Select _Channels_ > _Facebook Messenger_. In the _Configuration_ section, you will see the URL we are looking for, copy it
+
+	* Go back to the FB Messenger Configuration page and paste that URL on the _Callback URL_ field
