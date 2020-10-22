@@ -14,9 +14,9 @@ First thing to do is to create a DialogFlow agent and train it to detect three i
 
 ## G-Calendar
 
-1.	Google Developer Console
-  -	Go to [Google Developers console](https://console.developers.google.com/) and create a new project
-  -	Go to the dashboard and search for Calendar API in the search bar, then enable it
+* Google Developer Console
+  * Go to [Google Developers console](https://console.developers.google.com/) and create a new project
+  * Go to the dashboard and search for Calendar API in the search bar, then enable it
   
 2.	Credentials
 -	In the left-hand menu select Credentials, Create Credentials then OAuth Client ID
