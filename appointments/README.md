@@ -15,7 +15,9 @@ First thing to do is to create a DialogFlow agent and train it to detect three i
 ## G-Calendar
 
 1.	Google Developer Console
+
   -	Go to [Google Developers console](https://console.developers.google.com/) and create a new project
+
   -	Go to the dashboard and search for Calendar API in the search bar, then enable it
   
 2.	Credentials
@@ -23,8 +25,8 @@ First thing to do is to create a DialogFlow agent and train it to detect three i
 -	Select the Web application type and give it a name
 -	In the Authorized redirect URIs section add http://localhost/ in our case, then create
 -	Download the OAuth credentials as a JSON file, name it credentials.json 
+
 3.	Google OAuth SDK for Python
--	Pip install the required packages:
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
--	Here is the list of the Google Calendar scopes https://developers.google.com/calendar/auth
+-	Pip install the required packages: ```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib```
+-	Here is the list of the [Google Calendar scopes](https://developers.google.com/calendar/auth)
 
