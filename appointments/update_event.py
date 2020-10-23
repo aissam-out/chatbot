@@ -1,13 +1,12 @@
 from datetime import datetime, timedelta
 from cal_setup import get_calendar_service
-#from handle_time import process_time
 
 def update(event_id, start, end):
-    # update the event to tomorrow 9 AM IST
+    # authentication
     service = get_calendar_service()
-
+    # get event from primary calendar via event_id
     event = service.events().get(calendarId='primary', eventId=event_id).execute()
-
+    # update event
     event_result = service.events().update(
         calendarId='primary',
         eventId = event_id,
@@ -18,7 +17,7 @@ def update(event_id, start, end):
             "end": {"dateTime": end, "timeZone": 'Etc/GMT+1'},
         },
     ).execute()
-
+    # print the updated fields of the event
     print("updated event")
     print("id: ", event_result['id'])
     print("summary: ", event_result['summary'])
@@ -28,4 +27,5 @@ def update(event_id, start, end):
     return event_result['id']
 
 if __name__ == '__main__':
-    update('ssme0vsr1prhqm1a3pqg8iqspo', '2020-10-11 09:30:00')
+    # for test
+    update('v1a2pqg9justfortestnclkdlq', '2020-10-13T14:30:00+01:00')
