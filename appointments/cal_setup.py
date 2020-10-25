@@ -4,9 +4,11 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
-# If modifying these scopes, delete the file token.pickle.
+# Read & Write scope
+# Other scopes here : https://developers.google.com/calendar/auth
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
+# Path to your credential file
 CREDENTIALS_FILE = 'credentials.json'
 
 def get_calendar_service():
