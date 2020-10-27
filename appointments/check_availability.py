@@ -1,7 +1,7 @@
 from cal_setup import get_calendar_service
 
 def check(start, end):
-    '''check is a given datetime is available is not already taken'''
+    '''check if a given datetime is available is not already taken'''
 
     # authentication
     service = get_calendar_service()
