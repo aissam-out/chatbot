@@ -9,15 +9,16 @@ def hello():
 
 @app.route("/appointment", methods=['GET', 'POST'])
 def appointment():
-    # get product features
     if request.method == 'POST':
+        # get diologflow request
         json_content = request.get_json(force=True)
         req = json_content['queryResult']
-
+        # extract intent, message and parameters
         intent = req.get('intent', None)['displayName']
         text = req.get('queryText', None)
         params = req.get('parameters', None)
 
+        # process the request and prepare the answer in json format
         answer = get_answer(intent, params)
 
         reply = {
