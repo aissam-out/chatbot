@@ -5,19 +5,21 @@ from delete_event import delete_event
 from handle_time import process_time
 
 def event_add(params):
+    '''add an event to the calendar'''
+    # extract name, date and time
     name = params['name']
     param_time = params['time']
     param_date = params['date']
-
+    # process date and time inputs
     start, end = process_time(param_time, param_date, duration=1, z=True)
-
+    # check if the selected time is available
     is_available = check(start, end)
 
     if is_available:
         event_id = create_event(start, end, name)
-        answer = "Bien reçu. L'ID de votre RDV est " + event_id
+        answer = "Well received. The ID of your appointment is " + event_id
     else:
-        answer = "Ce créneau est déjà réservé"
+        answer = "This time slot is already reserved"
 
     return answer
 
