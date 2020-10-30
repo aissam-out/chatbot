@@ -12,7 +12,7 @@ def event_add(params):
     param_date = params['date']
     # process date and time inputs
     start, end = process_time(param_time, param_date, duration=1, z=True)
-    # check if the selected time is available
+    # check if the selected time slot is available
     is_available = check(start, end)
 
     if is_available:
@@ -24,19 +24,21 @@ def event_add(params):
     return answer
 
 def event_update(params):
+    '''update an event in the calendar'''
+    # extract name, date and time
     event_id = params['event_id']
     param_time = params['new_time']
     param_date = params['new_date']
-
+    # process date and time inputs
     start, end = process_time(param_time, param_date, duration=1, z=True)
-
+    # check if the selected time slot is available
     is_available = check(start, end)
 
     if is_available:
-        event_id = update(event_id, start, end)
-        answer = "Bien reçu. L'ID de votre RDV est " + event_id
+        answer = "There is no appointment in this time slot"
     else:
-        answer = "Ce créneau est déjà réservé"
+        event_id = update(event_id, start, end)
+        answer = "Well received. The ID of your appointment is " + event_id
 
     return answer
 
