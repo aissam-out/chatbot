@@ -51,14 +51,20 @@ def event_delete(params):
     return answer
 
 def all_fields(params, intent='add_event'):
+    '''
+    Check if all parameters have been received by the server
+    Returns True if so, False if not
+    '''
+
+    # parameters for the intent add_event
     if intent == 'add_event':
         if (params['date'] != '') & (params['time'] != '') & (params['name'] != ''): return True
         else: return False
-
+    # parameters for the intent update_event
     elif intent == 'update_event':
         if (params['event_id'] != '') & (params['new_time'] != '') & (params['new_date'] != ''): return True
         else: return False
-
+    # parameters for the intent delete_event
     elif intent == 'delete_event':
         if (params['event_id'] != ''): return True
         else: return False
