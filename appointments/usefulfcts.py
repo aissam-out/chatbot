@@ -43,10 +43,13 @@ def event_update(params):
     return answer
 
 def event_delete(params):
+    '''delete an event from the calendar'''
+    # extract the event_id
     event_id = params['event_id']
+    # delete the event
     delete_event(event_id)
 
-    answer = "Rendez-vous annulé"
+    answer = "Appointment canceled"
 
     return answer
 
