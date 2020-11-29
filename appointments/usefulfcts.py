@@ -8,7 +8,7 @@ def event_add(params):
     '''
     add an event to the calendar
     '''
-    
+
     # extract name, date and time
     name = params['name']
     param_time = params['time']
@@ -27,7 +27,10 @@ def event_add(params):
     return answer
 
 def event_update(params):
-    '''update an event in the calendar'''
+    '''
+    update an event in the calendar
+    '''
+    
     # extract name, date and time
     event_id = params['event_id']
     param_time = params['new_time']
