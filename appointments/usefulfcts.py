@@ -5,7 +5,10 @@ from delete_event import delete_event
 from handle_time import process_time
 
 def event_add(params):
-    '''add an event to the calendar'''
+    '''
+    add an event to the calendar
+    '''
+    
     # extract name, date and time
     name = params['name']
     param_time = params['time']
