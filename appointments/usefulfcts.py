@@ -30,7 +30,7 @@ def event_update(params):
     '''
     update an event in the calendar
     '''
-    
+
     # extract name, date and time
     event_id = params['event_id']
     param_time = params['new_time']
@@ -49,7 +49,10 @@ def event_update(params):
     return answer
 
 def event_delete(params):
-    '''delete an event from the calendar'''
+    '''
+    delete an event from the calendar
+    '''
+    
     # extract the event_id
     event_id = params['event_id']
     # delete the event
