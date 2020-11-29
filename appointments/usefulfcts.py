@@ -52,7 +52,7 @@ def event_delete(params):
     '''
     delete an event from the calendar
     '''
-    
+
     # extract the event_id
     event_id = params['event_id']
     # delete the event
@@ -84,7 +84,11 @@ def all_fields(params, intent='add_event'):
     else: return False
 
 def get_answer(intent, params):
-
+    '''
+    Execute the actions related to the intent
+    Get the answer
+    '''
+    
     if all_fields(params, intent):
         if intent == 'add_event':
             answer = event_add(params)
